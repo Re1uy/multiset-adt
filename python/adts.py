@@ -38,7 +38,6 @@ class MultiSet:
     This class itself does not handle how the underlying data is stored,
     so it just inherits Object.__init__.
     """
-
     def add(self, item: int) -> None:
         raise NotImplementedError
 
